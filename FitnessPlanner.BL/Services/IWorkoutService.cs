@@ -1,13 +1,15 @@
 ﻿using FitnessPlanner.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace FitnessPlanner.BL.Services
 {
     public interface IWorkoutService
     {
-        IEnumerable<Workout> GetAllWorkouts();
-        Workout GetWorkoutById(string id);
-        void CreateWorkout(Workout workout);
-        void UpdateWorkout(Workout workout);
-        void DeleteWorkout(string id);
+        Task<IEnumerable<Workout>> GetAllWorkoutsAsync();
+        Task<Workout> GetWorkoutByIdAsync(string id);
+        Task CreateWorkoutAsync(Workout workout);
+        Task UpdateWorkoutAsync(Workout workout);
+        Task DeleteWorkoutAsync(string id);
     }
 }

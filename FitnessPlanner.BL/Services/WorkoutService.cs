@@ -1,5 +1,7 @@
 ﻿using FitnessPlanner.DL.Repositories;
 using FitnessPlanner.Models;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace FitnessPlanner.BL.Services
 {
@@ -12,29 +14,29 @@ namespace FitnessPlanner.BL.Services
             _workoutRepository = workoutRepository;
         }
 
-        public IEnumerable<Workout> GetAllWorkouts()
+        public async Task<IEnumerable<Workout>> GetAllWorkoutsAsync()
         {
-            return _workoutRepository.GetAll();
+            return await _workoutRepository.GetAllAsync();
         }
 
-        public Workout GetWorkoutById(string id)
+        public async Task<Workout> GetWorkoutByIdAsync(string id)
         {
-            return _workoutRepository.GetById(id);
+            return await _workoutRepository.GetByIdAsync(id);
         }
 
-        public void CreateWorkout(Workout workout)
+        public async Task CreateWorkoutAsync(Workout workout)
         {
-            _workoutRepository.Create(workout);
+            await _workoutRepository.CreateAsync(workout);
         }
 
-        public void UpdateWorkout(Workout workout)
+        public async Task UpdateWorkoutAsync(Workout workout)
         {
-            _workoutRepository.Update(workout);
+            await _workoutRepository.UpdateAsync(workout);
         }
 
-        public void DeleteWorkout(string id)
+        public async Task DeleteWorkoutAsync(string id)
         {
-            _workoutRepository.Delete(id);
+            await _workoutRepository.DeleteAsync(id);
         }
     }
 }

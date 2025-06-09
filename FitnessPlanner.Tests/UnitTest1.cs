@@ -5,6 +5,7 @@ using FitnessPlanner.DL.Repositories;
 using FitnessPlanner.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace FitnessPlanner.Tests
 {
@@ -20,7 +21,7 @@ namespace FitnessPlanner.Tests
         }
 
         [Fact]
-        public void GetAllWorkouts_Returns_AllWorkouts()
+        public async Task GetAllWorkoutsAsync_Returns_AllWorkouts()
         {
             // Arrange
             var workouts = new List<Workout>
@@ -28,69 +29,55 @@ namespace FitnessPlanner.Tests
                 new Workout { Id = "1", Name = "Morning Workout" },
                 new Workout { Id = "2", Name = "Evening Workout" }
             };
-            _mockRepo.Setup(repo => repo.GetAll()).Returns(workouts);
+            _mockRepo.Setup(repo => repo.GetAllAsync()).ReturnsAsync(workouts);
 
             // Act
-            var result = _workoutService.GetAllWorkouts();
+            var result = await _workoutService.GetAllWorkoutsAsync();
 
             // Assert
             Assert.Equal(2, result.Count());
         }
 
         [Fact]
-        public void GetWorkoutById_Returns_CorrectWorkout()
+        public async Task GetWorkoutByIdAsync_Returns_CorrectWorkout()
         {
-
             var workout = new Workout { Id = "1", Name = "Morning Workout" };
-            _mockRepo.Setup(repo => repo.GetById("1")).Returns(workout);
+            _mockRepo.Setup(repo => repo.GetByIdAsync("1")).ReturnsAsync(workout);
 
-
-            var result = _workoutService.GetWorkoutById("1");
-
+            var result = await _workoutService.GetWorkoutByIdAsync("1");
 
             Assert.NotNull(result);
             Assert.Equal("Morning Workout", result.Name);
         }
 
         [Fact]
-        public void AddWorkout_Calls_InsertMethod()
+        public async Task CreateWorkoutAsync_Calls_CreateAsync()
         {
-
             var workout = new Workout { Id = "1", Name = "New Workout" };
 
+            await _workoutService.CreateWorkoutAsync(workout);
 
-            _workoutService.CreateWorkout(workout);
-
-
-            _mockRepo.Verify(repo => repo.Create(workout), Times.Once); 
+            _mockRepo.Verify(repo => repo.CreateAsync(workout), Times.Once);
         }
 
         [Fact]
-        public void UpdateWorkout_Calls_UpdateMethod()
+        public async Task UpdateWorkoutAsync_Calls_UpdateAsync()
         {
-
             var workout = new Workout { Id = "1", Name = "Updated Workout" };
-            _mockRepo.Setup(repo => repo.GetById("1")).Returns(workout);
 
+            await _workoutService.UpdateWorkoutAsync(workout);
 
-            _workoutService.UpdateWorkout(workout);
-
-
-            _mockRepo.Verify(repo => repo.Update(workout), Times.Once);
+            _mockRepo.Verify(repo => repo.UpdateAsync(workout), Times.Once);
         }
 
         [Fact]
-        public void RemoveWorkout_Calls_DeleteMethod()
+        public async Task DeleteWorkoutAsync_Calls_DeleteAsync()
         {
-
             var workout = new Workout { Id = "1", Name = "Workout to Remove" };
-            _mockRepo.Setup(repo => repo.GetById("1")).Returns(workout);
 
+            await _workoutService.DeleteWorkoutAsync("1");
 
-            _workoutService.DeleteWorkout("1");
-
-
-            _mockRepo.Verify(repo => repo.Delete("1"), Times.Once);
+            _mockRepo.Verify(repo => repo.DeleteAsync("1"), Times.Once);
         }
     }
 }

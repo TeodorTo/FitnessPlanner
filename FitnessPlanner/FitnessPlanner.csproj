@@ -12,6 +12,7 @@
         <PackageReference Include="MongoDB.Driver" Version="3.1.0" />
         <PackageReference Include="Moq" Version="4.20.72" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="Confluent.Kafka" Version="1.9.2" />
     </ItemGroup>
 
     <ItemGroup>

@@ -1,14 +1,18 @@
 ﻿using FitnessPlanner.Models;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace FitnessPlanner.DL.Repositories
 {
+
+
     public interface IWorkoutRepository
     {
-        IEnumerable<Workout> GetAll();
-        Workout GetById(string id);
-        void Create(Workout workout);
-        void Update(Workout workout);
-        void Delete(string id);
+        Task<IEnumerable<Workout>> GetAllAsync();
+        Task<Workout> GetByIdAsync(string id);
+        Task CreateAsync(Workout workout);
+        Task UpdateAsync(Workout workout);
+        Task DeleteAsync(string id);
     }
+
 }

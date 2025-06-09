@@ -2,6 +2,7 @@
 using FitnessPlanner.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace FitnessPlanner.Controllers
 {
@@ -16,52 +17,48 @@ namespace FitnessPlanner.Controllers
             _workoutService = workoutService;
         }
 
-  
         [HttpGet]
-        public ActionResult<IEnumerable<Workout>> Get()
+        public async Task<ActionResult<IEnumerable<Workout>>> Get()
         {
-            return Ok(_workoutService.GetAllWorkouts());
+            var workouts = await _workoutService.GetAllWorkoutsAsync();
+            return Ok(workouts);
         }
 
-
         [HttpGet("{id}")]
-        public ActionResult<Workout> Get(string id)
+        public async Task<ActionResult<Workout>> Get(string id)
         {
-            var workout = _workoutService.GetWorkoutById(id);
+            var workout = await _workoutService.GetWorkoutByIdAsync(id);
             if (workout == null)
                 return NotFound();
 
             return Ok(workout);
         }
 
-
         [HttpPost]
-        public ActionResult Post([FromBody] Workout workout)
+        public async Task<ActionResult> Post([FromBody] Workout workout)
         {
-            _workoutService.CreateWorkout(workout);
+            await _workoutService.CreateWorkoutAsync(workout);
             return CreatedAtAction(nameof(Get), new { id = workout.Id }, workout);
         }
 
-
         [HttpPut("{id}")]
-        public ActionResult Put(string id, [FromBody] Workout workout)
+        public async Task<ActionResult> Put(string id, [FromBody] Workout workout)
         {
             if (id != workout.Id)
                 return BadRequest();
 
-            _workoutService.UpdateWorkout(workout);
+            await _workoutService.UpdateWorkoutAsync(workout);
             return NoContent();
         }
 
-
         [HttpDelete("{id}")]
-        public ActionResult Delete(string id)
+        public async Task<ActionResult> Delete(string id)
         {
-            var existingWorkout = _workoutService.GetWorkoutById(id);
+            var existingWorkout = await _workoutService.GetWorkoutByIdAsync(id);
             if (existingWorkout == null)
                 return NotFound();
 
-            _workoutService.DeleteWorkout(id);
+            await _workoutService.DeleteWorkoutAsync(id);
             return NoContent();
         }
     }

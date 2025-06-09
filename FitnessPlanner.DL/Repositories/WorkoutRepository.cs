@@ -1,10 +1,9 @@
 ﻿using FitnessPlanner.Models;
-using Microsoft.Extensions.Logging;
+using FitnessPlanner.Models.Configurations;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
 using System.Collections.Generic;
-using System.Linq;
-using FitnessPlanner.Models.Configurations;
+using System.Threading.Tasks;
 
 namespace FitnessPlanner.DL.Repositories
 {
@@ -16,36 +15,32 @@ namespace FitnessPlanner.DL.Repositories
         {
             var client = new MongoClient(mongoConfig.CurrentValue.ConnectionString);
             var database = client.GetDatabase(mongoConfig.CurrentValue.DatabaseName);
-            _workouts = database.GetCollection<Workout>("Workouts");  // Използваме Workouts колекция
+            _workouts = database.GetCollection<Workout>("Workouts");
         }
 
-        public IEnumerable<Workout> GetAll()
+        public async Task<IEnumerable<Workout>> GetAllAsync()
         {
-            return _workouts.Find(workout => true).ToList();
+            return await _workouts.Find(workout => true).ToListAsync();
         }
 
-        public Workout GetById(string id)
+        public async Task<Workout> GetByIdAsync(string id)
         {
-            return _workouts.Find(workout => workout.Id == id).FirstOrDefault();
+            return await _workouts.Find(workout => workout.Id == id).FirstOrDefaultAsync();
         }
 
-        public void Create(Workout workout)
+        public async Task CreateAsync(Workout workout)
         {
-            _workouts.InsertOne(workout);
+            await _workouts.InsertOneAsync(workout);
         }
 
-        public void Update(Workout workout)
+        public async Task UpdateAsync(Workout workout)
         {
-            var existing = _workouts.Find(w => w.Id == workout.Id).FirstOrDefault();
-            if (existing != null)
-            {
-                _workouts.ReplaceOne(w => w.Id == workout.Id, workout);
-            }
+            await _workouts.ReplaceOneAsync(w => w.Id == workout.Id, workout);
         }
 
-        public void Delete(string id)
+        public async Task DeleteAsync(string id)
         {
-            _workouts.DeleteOne(workout => workout.Id == id);
+            await _workouts.DeleteOneAsync(workout => workout.Id == id);
         }
     }
 }

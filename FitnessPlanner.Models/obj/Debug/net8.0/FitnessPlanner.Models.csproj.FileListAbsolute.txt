@@ -1,24 +1,37 @@
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\bin\Debug\net8.0\FitnessPlanner.Models.deps.json
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\bin\Debug\net8.0\FitnessPlanner.Models.dll
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\bin\Debug\net8.0\FitnessPlanner.Models.pdb
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.AssemblyInfoInputs.cache
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.AssemblyInfo.cs
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.csproj.CoreCompileInputs.cache
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.dll
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\refint\FitnessPlanner.Models.dll
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.pdb
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\ref\FitnessPlanner.Models.dll
-C:\Users\Jupiter Soft HP\RiderProjects\FitnessPlanner\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.csproj.AssemblyReference.cache
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\bin\Debug\net8.0\FitnessPlanner.Models.deps.json
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\bin\Debug\net8.0\FitnessPlanner.Models.dll
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\bin\Debug\net8.0\FitnessPlanner.Models.pdb
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.csproj.AssemblyReference.cache
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.AssemblyInfoInputs.cache
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.AssemblyInfo.cs
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.csproj.CoreCompileInputs.cache
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.dll
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\refint\FitnessPlanner.Models.dll
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\FitnessPlanner.Models.pdb
-C:\Users\Jupiter Soft HP\Desktop\APIProject\FitnessPlanner.Models\obj\Debug\net8.0\ref\FitnessPlanner.Models.dll
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.deps.json
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.dll
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.pdb
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.AssemblyInfoInputs.cache
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.AssemblyInfo.cs
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.csproj.CoreCompileInputs.cache
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.dll
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/refint/FitnessPlanner.Models.dll
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.pdb
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/ref/FitnessPlanner.Models.dll
+C:/Users/Jupiter Soft HP/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.csproj.AssemblyReference.cache
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.deps.json
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.dll
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.pdb
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.csproj.AssemblyReference.cache
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.AssemblyInfoInputs.cache
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.AssemblyInfo.cs
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.csproj.CoreCompileInputs.cache
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.dll
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/refint/FitnessPlanner.Models.dll
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.pdb
+C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.Models/obj/Debug/net8.0/ref/FitnessPlanner.Models.dll
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.deps.json
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.dll
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/bin/Debug/net8.0/FitnessPlanner.Models.pdb
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.csproj.AssemblyReference.cache
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.AssemblyInfoInputs.cache
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.AssemblyInfo.cs
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.csproj.CoreCompileInputs.cache
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.sourcelink.json
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.dll
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/refint/FitnessPlanner.Models.dll
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/FitnessPlanner.Models.pdb
+/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/Debug/net8.0/ref/FitnessPlanner.Models.dll
