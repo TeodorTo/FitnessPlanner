@@ -1,5 +1,6 @@
 using FitnessPlanner.Kafka;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -13,16 +14,16 @@ public class CachedWorkoutsController : ControllerBase
     }
 
     [HttpGet]
-    public IActionResult GetAll()
+    public async Task<IActionResult> GetAll()
     {
-        var workouts = _cacheService.GetAllCachedWorkouts();
+        var workouts = await _cacheService.GetAllCachedWorkoutsAsync();
         return Ok(workouts);
     }
 
     [HttpGet("{id}")]
-    public IActionResult Get(string id)
+    public async Task<IActionResult> Get(string id)
     {
-        var workout = _cacheService.GetWorkoutFromCache(id);
+        var workout = await _cacheService.GetWorkoutFromCacheAsync(id);
         return workout == null ? NotFound() : Ok(workout);
     }
 }

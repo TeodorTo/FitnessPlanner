@@ -69,15 +69,15 @@ namespace FitnessPlanner.Kafka
         }
 
         // Методи за достъп до кеша:
-        public Workout GetWorkoutFromCache(string id)
+        public Task<Workout?> GetWorkoutFromCacheAsync(string id)
         {
             _cache.TryGetValue(id, out var workout);
-            return workout;
+            return Task.FromResult(workout);
         }
 
-        public IEnumerable<Workout> GetAllCachedWorkouts()
+        public Task<IEnumerable<Workout>> GetAllCachedWorkoutsAsync()
         {
-            return _cache.Values;
+            return Task.FromResult<IEnumerable<Workout>>(_cache.Values);
         }
     }
 }
