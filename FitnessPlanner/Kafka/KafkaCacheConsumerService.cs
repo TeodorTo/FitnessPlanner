@@ -24,7 +24,8 @@ namespace FitnessPlanner.Kafka
             {
                 BootstrapServers = "localhost:9092",
                 GroupId = "workout-cache-consumer-group",
-                AutoOffsetReset = AutoOffsetReset.Earliest
+                AutoOffsetReset = AutoOffsetReset.Latest, // Чете само нови съобщения
+                EnableAutoCommit = false // Ръчно комитиране на offsets
             };
 
             _consumer = new ConsumerBuilder<Ignore, string>(config).Build();
@@ -42,11 +43,13 @@ namespace FitnessPlanner.Kafka
                         var consumeResult = _consumer.Consume(stoppingToken);
                         if (consumeResult != null)
                         {
-                            _logger.LogInformation("Received message: {Message}", consumeResult.Message.Value);
+                            _logger.LogInformation("Received message: {Message}, Partition: {Partition}, Offset: {Offset}",
+                                consumeResult.Message.Value, consumeResult.Partition, consumeResult.Offset);
                             var workout = JsonSerializer.Deserialize<Workout>(consumeResult.Message.Value);
                             if (workout != null)
                             {
                                 _cache.AddOrUpdate(workout.Id, workout, (key, old) => workout);
+                                _consumer.Commit(consumeResult); // Ръчно комитиране на offset
                             }
                         }
                     }
@@ -68,7 +71,6 @@ namespace FitnessPlanner.Kafka
             base.Dispose();
         }
 
-        // Методи за достъп до кеша:
         public Task<Workout?> GetWorkoutFromCacheAsync(string id)
         {
             _cache.TryGetValue(id, out var workout);

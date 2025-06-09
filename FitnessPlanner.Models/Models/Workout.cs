@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace FitnessPlanner.Models
 {
@@ -7,5 +8,6 @@ namespace FitnessPlanner.Models
         public string Id { get; set; }
         public string Name { get; set; }
         public List<Exercise> Exercises { get; set; } = new List<Exercise>();
+        public DateTime LastModified { get; set; } = DateTime.UtcNow;
     }
 }

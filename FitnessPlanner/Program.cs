@@ -2,6 +2,7 @@ using FitnessPlanner.BL.Services;
 using FitnessPlanner.DL.Repositories;
 using FitnessPlanner.Kafka;
 using FitnessPlanner.Models.Configurations;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,8 +15,6 @@ builder.Services.AddSingleton<IWorkoutService, WorkoutService>();
 
 
 builder.Services.AddHostedService<KafkaCachePublisherService>();
-
-
 builder.Services.AddSingleton<KafkaCacheConsumerService>();
 builder.Services.AddHostedService(provider => provider.GetRequiredService<KafkaCacheConsumerService>());
 
@@ -34,9 +33,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
