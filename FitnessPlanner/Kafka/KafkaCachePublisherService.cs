@@ -50,7 +50,7 @@ namespace FitnessPlanner.Kafka
                         _lastPublished.AddOrUpdate(workout.Id, workout.LastModified, (key, old) => workout.LastModified);
                     }
                 }
-                await Task.Delay(TimeSpan.FromSeconds(30), stoppingToken);
+                await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
             }
         }
 

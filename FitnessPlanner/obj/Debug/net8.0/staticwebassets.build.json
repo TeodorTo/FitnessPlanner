@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "+vYtJuG5NRikBCBHixi1MMhPZmsWeeqdJHhvKMddd+4=",
+  "Hash": "COdCvQaoLtpv1mQGDqwScAmmEDdnDQgm6F1q1w5feUo=",
   "Source": "FitnessPlanner",
   "BasePath": "_content/FitnessPlanner",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

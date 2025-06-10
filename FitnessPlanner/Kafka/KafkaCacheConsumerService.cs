@@ -24,8 +24,8 @@ namespace FitnessPlanner.Kafka
             {
                 BootstrapServers = "localhost:9092",
                 GroupId = "workout-cache-consumer-group",
-                AutoOffsetReset = AutoOffsetReset.Latest, // Чете само нови съобщения
-                EnableAutoCommit = false // Ръчно комитиране на offsets
+                AutoOffsetReset = AutoOffsetReset.Latest,
+                EnableAutoCommit = false 
             };
 
             _consumer = new ConsumerBuilder<Ignore, string>(config).Build();
@@ -49,14 +49,14 @@ namespace FitnessPlanner.Kafka
                             if (workout != null)
                             {
                                 _cache.AddOrUpdate(workout.Id, workout, (key, old) => workout);
-                                _consumer.Commit(consumeResult); // Ръчно комитиране на offset
+                                _consumer.Commit(consumeResult); 
                             }
                         }
                     }
                 }
                 catch (OperationCanceledException)
                 {
-                    // Graceful shutdown
+                   
                 }
                 finally
                 {

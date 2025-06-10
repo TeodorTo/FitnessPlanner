@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FitnessPlanner.DL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0db1a04263b1a4e9e38f85195c7a7111ab07bb47")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de7d8296f070ed7305e2be65bea0816b5ef21d82")]
 [assembly: System.Reflection.AssemblyProductAttribute("FitnessPlanner.DL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FitnessPlanner.DL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

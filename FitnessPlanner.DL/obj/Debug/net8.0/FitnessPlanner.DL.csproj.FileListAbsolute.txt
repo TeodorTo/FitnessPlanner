@@ -44,3 +44,19 @@ C:/Users/Jupiter Soft HP/Desktop/APIProject/FitnessPlanner.DL/obj/Debug/net8.0/r
 /home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/obj/Debug/net8.0/refint/FitnessPlanner.DL.dll
 /home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/obj/Debug/net8.0/FitnessPlanner.DL.pdb
 /home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/obj/Debug/net8.0/ref/FitnessPlanner.DL.dll
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\bin\Debug\net8.0\FitnessPlanner.DL.deps.json
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\bin\Debug\net8.0\FitnessPlanner.DL.dll
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\bin\Debug\net8.0\FitnessPlanner.DL.pdb
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\bin\Debug\net8.0\FitnessPlanner.Models.dll
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\bin\Debug\net8.0\FitnessPlanner.Models.pdb
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessPlanner.DL.csproj.AssemblyReference.cache
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessPlanner.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessPlanner.DL.AssemblyInfoInputs.cache
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessPlanner.DL.AssemblyInfo.cs
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessPlanner.DL.csproj.CoreCompileInputs.cache
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessPlanner.DL.sourcelink.json
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessP.AA2F1B9D.Up2Date
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessPlanner.DL.dll
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\refint\FitnessPlanner.DL.dll
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\FitnessPlanner.DL.pdb
+C:\Users\Jupiter Soft HP\Desktop\New folder (6)\FitnessPlanner\FitnessPlanner.DL\obj\Debug\net8.0\ref\FitnessPlanner.DL.dll

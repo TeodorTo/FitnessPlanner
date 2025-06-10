@@ -1,36 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner/FitnessPlanner.csproj": {}
+    "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner\\FitnessPlanner.csproj": {}
   },
   "projects": {
-    "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.BL/FitnessPlanner.BL.csproj": {
+    "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.BL\\FitnessPlanner.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.BL/FitnessPlanner.BL.csproj",
+        "projectUniqueName": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.BL\\FitnessPlanner.BL.csproj",
         "projectName": "FitnessPlanner.BL",
-        "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.BL/FitnessPlanner.BL.csproj",
-        "packagesPath": "/home/winchester533/.nuget/packages/",
-        "outputPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.BL/obj/",
+        "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.BL\\FitnessPlanner.BL.csproj",
+        "packagesPath": "C:\\Users\\Jupiter Soft HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.BL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/winchester533/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jupiter Soft HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/FitnessPlanner.DL.csproj": {
-                "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/FitnessPlanner.DL.csproj"
+              "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.DL\\FitnessPlanner.DL.csproj": {
+                "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.DL\\FitnessPlanner.DL.csproj"
               },
-              "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj": {
-                "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj"
+              "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj": {
+                "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj"
               }
             }
           }
@@ -44,7 +51,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -79,34 +87,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/FitnessPlanner.DL.csproj": {
+    "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.DL\\FitnessPlanner.DL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/FitnessPlanner.DL.csproj",
+        "projectUniqueName": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.DL\\FitnessPlanner.DL.csproj",
         "projectName": "FitnessPlanner.DL",
-        "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/FitnessPlanner.DL.csproj",
-        "packagesPath": "/home/winchester533/.nuget/packages/",
-        "outputPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/obj/",
+        "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.DL\\FitnessPlanner.DL.csproj",
+        "packagesPath": "C:\\Users\\Jupiter Soft HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.DL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/winchester533/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jupiter Soft HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj": {
-                "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj"
+              "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj": {
+                "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj"
               }
             }
           }
@@ -120,7 +135,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -155,26 +171,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj": {
+    "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj",
         "projectName": "FitnessPlanner.Models",
-        "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj",
-        "packagesPath": "/home/winchester533/.nuget/packages/",
-        "outputPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/obj/",
+        "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj",
+        "packagesPath": "C:\\Users\\Jupiter Soft HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/winchester533/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jupiter Soft HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -192,7 +215,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -227,40 +251,47 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner/FitnessPlanner.csproj": {
+    "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner\\FitnessPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner/FitnessPlanner.csproj",
+        "projectUniqueName": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner\\FitnessPlanner.csproj",
         "projectName": "FitnessPlanner",
-        "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner/FitnessPlanner.csproj",
-        "packagesPath": "/home/winchester533/.nuget/packages/",
-        "outputPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner/obj/",
+        "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner\\FitnessPlanner.csproj",
+        "packagesPath": "C:\\Users\\Jupiter Soft HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/winchester533/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jupiter Soft HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.BL/FitnessPlanner.BL.csproj": {
-                "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.BL/FitnessPlanner.BL.csproj"
+              "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.BL\\FitnessPlanner.BL.csproj": {
+                "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.BL\\FitnessPlanner.BL.csproj"
               },
-              "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/FitnessPlanner.DL.csproj": {
-                "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.DL/FitnessPlanner.DL.csproj"
+              "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.DL\\FitnessPlanner.DL.csproj": {
+                "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.DL\\FitnessPlanner.DL.csproj"
               },
-              "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj": {
-                "projectPath": "/home/winchester533/RiderProjects/FitnessPlanner/FitnessPlanner.Models/FitnessPlanner.Models.csproj"
+              "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj": {
+                "projectPath": "C:\\Users\\Jupiter Soft HP\\Desktop\\New folder (6)\\FitnessPlanner\\FitnessPlanner.Models\\FitnessPlanner.Models.csproj"
               }
             }
           }
@@ -274,7 +305,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -324,7 +356,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
